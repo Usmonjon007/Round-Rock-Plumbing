@@ -533,6 +533,13 @@ section {
     gap: 50px;
 }
 
+.contact .container .title {
+    color: #50B2EA;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 .contact .container .items {
     display: flex;
     justify-content: space-between;
