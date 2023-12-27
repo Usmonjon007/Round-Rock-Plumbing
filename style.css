@@ -549,17 +549,39 @@ section {
 }
 
 .contact .container .items .item {
-    width: 370px;
-    height: 64px;
+    width: 360px;
+    height: 54px;
     border-radius: 40px;
     opacity: 0.5;
     background: #50B2EA;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.contact .container .items .item[type=text]::placeholder,
+.contact .container .items .item[type=email]::placeholder {
+    color: #FFFFFF;
 }
 
 .contact .container .items .item:last-child {
     width: 148px;
     background: #50B2EA;
     opacity: 1;
+    cursor: pointer;
+    transition: all .3s ease;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.contact .container .items .item:last-child:hover,
+.contact .container .items .item:last-child:focus {
+    background: #FFFFFF;
+    color: #50B2EA;
 }
 
 /* contact us end */
